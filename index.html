@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="UTF-8">
+    <title>Document</title>
+  <link rel="stylesheet" href="dist/css/styles.css">
+  </head>
+  <body>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+     //System.baseUrl = 'dist';
+      System.import('dist/main');
+      </script>
+    <div id="canvas"></div>
+    <div id="container">Loading...</div>
+    will it watch my text, tii? guess not test word
+    Hello World! blah thsaht
+    <div id="contacts"></div>
+    <script id="contactTemplate" type="text/template">
+      <img src="<%= photo %>" alt="<%= name %>" />
+      <h1><%= name %><span><%= type %></span></h1>
+      <div><%= address %></div>
+      <dl>
+        <dt>Tel:</dt><dd><%= tel %></dd>
+        <dt>Email:</dt><dd><a href="mailto:<%= email %>"><%= email %></a></dd>
+     </dl>
+</script>
+<!--    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js"></script>-->
+    
+  </body>
+</html>

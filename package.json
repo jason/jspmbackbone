@@ -1,0 +1,29 @@
+{
+  "jspm": {
+    "name": "bt",
+    "directories": {
+      "lib": "src/js"
+    },
+    "dependencies": {
+      "backbone": "^1.1.2",
+      "backbone.localstorage": "npm:backbone.localstorage@^1.1.16",
+      "jquery": "^2.1.3",
+      "lodash": "^3.1.0",
+      "underscore": "^1.7.0"
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.0.0-rc10",
+    "gulp": "^3.8.11",
+    "gulp-6to5": "^3.0.0",
+    "gulp-concat": "^2.4.3",
+    "gulp-jshint": "^1.9.2",
+    "gulp-minify-css": "^0.4.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.2",
+    "gulp-serve": "^0.3.0",
+    "gulp-uglify": "^1.1.0",
+    "serve": "^1.4.0"
+  }
+}
